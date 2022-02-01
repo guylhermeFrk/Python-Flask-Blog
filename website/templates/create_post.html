@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block title %}Criar Postagem{% endblock %}
+
+{% block content %}
+    <h1 class="mt-4" align="center">Criar Postagem</h1>
+
+    <form method="POST">
+        <div class="mt-4">
+            <textarea name="text" id="text" class="form-control"></textarea>
+        </div>
+        <div class="mt-4">
+            <button type="submit" class="btn btn-lg btn-primary">Criar</button>
+        </div>
+    </form>
+    <div class="mt-4" align="center">
+        <a href="/home"><button type="button" class="btn btn-lg btn-secondary">Voltar</button></a>
+    </div>
+{% endblock %}

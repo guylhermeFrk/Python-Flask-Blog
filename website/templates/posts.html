@@ -1,0 +1,13 @@
+{% extends 'posts_div.html' %}
+
+{% block title %}Postagem por: {{ username }}{% endblock %}
+
+{% block header %}
+    Postagem por: {{ username }}
+{% endblock %}
+
+{% block footer %}
+    <div align="center">
+        <a href="/home"><button type="button" class="btn btn-secondary btn-lg">Voltar</button></a>
+    </div>
+{% endblock %}
